@@ -22,6 +22,14 @@ index.html 파일을 열고 게임을 직접 실행해 봅시다.
 
 (여기에 버그를 유발한 커밋의 id와 어떻게 하면 버그를 수정할 수 있는지 적어주세요.)
 
+1. 어느 수정사항이 오류를 발생했는지 확인 (git diff 나 commit 리스트를 통해서)
+commit id:75928a
+cbuckey-uda committed on 24 May 2010 
+Use space for movement and enter for shooting
+
+2. 해당 commit id를 이용하여 이전 수정 버전으로 되돌림
+git revert 75928a
+
 ### 힌트
 
 과제 2를 통해 커밋도 체크아웃 할 수 있다는 것을 배웠습니다. 이전 커밋을 체크하웃하면 타임머신을 타고 과거로 돌아갈 수 있습니다!
